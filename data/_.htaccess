@@ -1,0 +1,7 @@
+<FilesMatch ".(json|html)$">
+
+    Order allow,deny
+
+    Deny from all
+
+</FilesMatch>
